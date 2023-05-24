@@ -79,6 +79,32 @@ export default class Home extends React.Component {
                 }}
               >
                 <TextInput
+                  placeholder="E-mail"
+                  placeholderTextColor="#345c74"
+                  style={{
+                    fontFamily: "Bold",
+                    fontSize: 12,
+                    width: 280,
+                    paddingHorizontal: 12,
+                  }}
+                />
+                <Image
+                  source={require("../images/sear.png")}
+                  style={{ height: 14, width: 14 }}
+                />
+              </View>
+              <View
+                style={{
+                  flexDirection: "row",
+                  alignItems: "center",
+                  backgroundColor: "#FFF",
+                  padding: 10,
+                  borderRadius: 12,
+                  marginHorizontal: 20,
+                  marginTop: 20,
+                }}
+              >
+                <TextInput
                   placeholder="Password"
                   placeholderTextColor="#345c74"
                   style={{
